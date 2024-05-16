@@ -8,9 +8,9 @@ function validateSyntax() {
     // TODO: Write your validation logic here
         // Check if input starts with 'pet_' and followed by alphanumeric characters
 if( petCheck.test(input)){
-    document.getElementById("result").textContent = "Valid Input";
+    document.getElementById("result").textContent = "Valid Syntax";
 } else{
-    document.getElementById("result").textContent = "Invalid Input";
+    document.getElementById("result").textContent = "Invalid Syntax";
 }
             // document.getElementById('result').innerText = result;
 }
